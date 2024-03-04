@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   return (
     <body>
+      /swenyee work
       <div class="top-black-bar">
         <div class="greybar-in-blackbar">
           <div class="location-name">Will it change after commit</div>
@@ -15,6 +16,7 @@ function App() {
           </div>
         </div>
       </div>
+      /to here
       <div class="temp-of-day-section">
         <div class="temp-of-day-block">
           Temperature for the day
@@ -91,9 +93,8 @@ function App() {
           </div>
         </div>
       </div>
-
-/Maks to edit
-      <div class="info-block-bottum">  
+      /Maks to edit
+      <div class="info-block-bottum">
         <div class="weekly-info-block-left">
           <div class="each-column">
             <div class="column">Today</div>

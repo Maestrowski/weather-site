@@ -93,7 +93,8 @@ function App() {
         </div>
       </div>
 
-      <div class="info-block-bottum">
+/Maks to edit
+      <div class="info-block-bottum">  
         <div class="weekly-info-block-left">
           <div class="each-column">
             <div class="column">Today</div>
@@ -142,6 +143,7 @@ function App() {
             </div>
           </div>
         </div>
+        //To here
         <div class="icon-info-middle">
           <div class="four-block-info">
             <div class="single-block-info">info1</div>

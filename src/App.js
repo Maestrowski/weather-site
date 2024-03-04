@@ -5,6 +5,7 @@ function App() {
   return (
     <body>
       /swenyee work
+      {/* binula test */}
       <div class="top-black-bar">
         <div class="greybar-in-blackbar">
           <div class="location-name">Will it change after commit</div>

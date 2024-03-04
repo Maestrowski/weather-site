@@ -6,7 +6,7 @@ function App() {
     <body>
       <div class="top-black-bar">
         <div class="greybar-in-blackbar">
-          <div class="location-name">Showing group</div>
+          <div class="location-name">seeing if it auto changes</div>
           <div class="under-location-name">
             <div class="small-icons-under-name">5°C</div>
             <div class="small-icons-under-name">

@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   return (
     <body>
+/swenyee will edit
       <div class="top-black-bar">
         <div class="greybar-in-blackbar">
           <div class="location-name">Will it change after commit</div>
@@ -15,6 +16,8 @@ function App() {
           </div>
         </div>
       </div>
+
+/swenyee finished
 
       <div class="temp-of-day-section">
         <div class="temp-of-day-block">

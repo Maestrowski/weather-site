@@ -12,7 +12,7 @@ function App() {
           <div class="under-location-name">
             <div class= "small-icons-under-name">5°C</div>
             <div class="small-icons-under-name">
-              <img src="images/🦆 icon _day sunny_.svg" />
+              <img src='assets/🦆 icon _day sunny_.png' />
             </div>
           </div>
         </div>
@@ -38,43 +38,43 @@ function App() {
           </div>
           <div class="weather-details-icon">
             <div class="icon">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _rain_.svg" />
+              <img src={require("./assets/🦆 icon _rain_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _rain_.svg" />
+              <img src={require("./assets/🦆 icon _rain_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _rain_.svg" />
+              <img src={require("./assets/🦆 icon _rain_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _storm showers_.svg" />
+              <img src={require("./assets/🦆 icon _storm showers_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _storm showers_.svg" />
+              <img src={require("./assets/🦆 icon _storm showers_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _day sunny_.svg" />
+              <img src={"./assets/🦆 icon _day sunny_.png"} />
             </div>
             <div class="icon">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
           </div>
           <div class="weather-details-temp">
@@ -119,28 +119,28 @@ function App() {
           </div>
           <div class="each-column">
             <div class="column">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="column">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="column">
-              <img src="images/🦆 icon _rain_.svg" />
+              <img src={require("./assets/🦆 icon _rain_.png")} />
             </div>
             <div class="column">
-              <img src="images/🦆 icon _storm showers_.svg" />
+              <img src={require("./assets/🦆 icon _storm showers_.png")} />
             </div>
             <div class="column">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="column">
-              <img src="images/🦆 icon _cloud_.svg" />
+              <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="column">
-              <img src="images/🦆 icon _day sunny_.svg" />
+              <img src={"./assets/🦆 icon _day sunny_.png"} />
             </div>
             <div class="column">
-              <img src="images/🦆 icon _day sunny_.svg" />
+              <img src={"./assets/🦆 icon _day sunny_.png"} />
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ function App() {
           <div>
             <img
               class="map-image"
-              src="images/a043430d44beed64b749405a521106e7-2.jpeg"
+              src={"./assets/a043430d44beed64b749405a521106e7-2.jpeg"}
             />
           </div>
         </div>

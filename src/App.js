@@ -12,7 +12,7 @@ function App() {
           <div class="under-location-name">
             <div class= "small-icons-under-name">5°C</div>
             <div class="small-icons-under-name">
-              <img src='assets/🦆 icon _day sunny_.png' />
+              <img src={require("./assets/clear_day.png") }/>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ function App() {
               <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="icon">
-              <img src={"./assets/🦆 icon _day sunny_.png"} />
+              <img src={require("./assets/clear_day.png")} />
             </div>
             <div class="icon">
               <img src={require("./assets/🦆 icon _cloud_.png")} />
@@ -137,10 +137,10 @@ function App() {
               <img src={require("./assets/🦆 icon _cloud_.png")} />
             </div>
             <div class="column">
-              <img src={"./assets/🦆 icon _day sunny_.png"} />
+              <img src={require("./assets/clear_day.png")} />
             </div>
             <div class="column">
-              <img src={"./assets/🦆 icon _day sunny_.png"} />
+              <img src={require("./assets/clear_day.png")} />
             </div>
           </div>
         </div>

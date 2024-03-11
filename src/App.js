@@ -6,11 +6,19 @@ function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
 
   const handleOnSearchChange = (searchData) => {
-    const [lan, lon] = searchData.value.split(" ");
+    const [lat, lon] = searchData.value.split(" ");
 
     const currentWeatherFetch = fetch(
-      `https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}`
-    )
+      `${WEATHER_API_URL}/weather?lat=${lat}&lon=${lon}&exclude={part}&appid=${WEATHER_API_KEY}`
+    );
+
+    Promise.all([currentWeatherFetch])
+    .then(async (response) => {
+      const weatherResponse = await response[0].json();
+
+      setCurrentWeather({city: searchData.label, ...weatherResponse})
+    })
+    .catch((err) => console.log(err));
   }
 
 
@@ -22,7 +30,9 @@ function App() {
         <div class="greybar-in-blackbar">
           <div class="location-name">Will it change after commit</div>
           <div class="under-location-name">
-            <div class= "small-icons-under-name">5°C</div>
+            <div class= "small-icons-under-name">
+              <p>5°C</p>
+              </div>
             <div class="small-icons-under-name">
               <img src={require("./assets/clear_day.png") }/>
             </div>
@@ -91,7 +101,7 @@ function App() {
           </div>
           <div class="weather-details-temp">
             <div class="temp">5°C</div>
-            <div class="temp">5°C</div>
+            <div class="temp">5°C</div> 
             <div class="temp">4°C</div>
             <div class="temp">4°C</div>
             <div class="temp">3°C</div>

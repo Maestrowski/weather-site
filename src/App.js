@@ -1,15 +1,22 @@
 import React from 'react';
-import Weather from './Weather';
-import { getLocation, FullTodayForecast } from './Location.js';
+import { Weather, TodayForecast } from './Weather';
+import { getLocation, getLocationAsync, showLocation } from './Location';
 
 
 const App = () => {
-    getLocation();
+    getLocation(showLocation);
 
     return (
         <div>
             <h1>Get City Weather</h1>
-            <FullTodayForecast />
+            <Weather />
+
+            <h1>Weather by Location</h1>
+            <p id="city"></p>
+            <p id="lat"></p>
+            <p id="lon"></p>
+
+            <TodayForecast />
         </div>
     );
 };

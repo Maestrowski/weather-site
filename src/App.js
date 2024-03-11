@@ -1,6 +1,6 @@
 import React from 'react';
 import Weather from './Weather';
-import { getLocation } from './Location.js';
+import { getLocation, FullTodayForecast } from './Location.js';
 
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     return (
         <div>
             <h1>Get City Weather</h1>
-            <Weather />
+            <FullTodayForecast />
         </div>
     );
 };
